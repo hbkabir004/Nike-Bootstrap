@@ -1,0 +1,18 @@
+body {
+  font-family: "Bebas Neue", cursive;
+}
+header {
+  background-color: #fff9f4;
+}
+.buy-btn {
+  height: 60px;
+  width: 100px;
+  background-image: linear-gradient(180deg, #3d4ff3 0%, #3543bc 100%);
+  color: whitesmoke;
+}
+.btn-icon {
+  width: 20px;
+}
+.top-banner h1 {
+  font-size: 80px;
+}
