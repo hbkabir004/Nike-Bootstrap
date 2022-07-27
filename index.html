@@ -20,7 +20,7 @@
   <body>
     <header>
       <!-- navbar Start -->
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
           <div>
             <img class="w-25" src="./icons/Logo.png" alt="" srcset="" />
@@ -42,13 +42,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link" href="#casual">Casual</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About US</a>
+                <a class="nav-link" href="#formal">Formal</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#about">About Us</a>
               </li>
             </ul>
           </div>
@@ -91,7 +91,7 @@
     </header>
     <main>
       <!-- Casual Shoe Section Start -->
-      <section class="container mt-5">
+      <section id="casual" class="container mt-5">
         <h1 class="shoe-header">CASUAL SHOES</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
@@ -224,7 +224,7 @@
       </section>
       <!-- Casual Shoe Section End -->
       <!-- Formal Shoe Section Start -->
-      <section class="container mt-5">
+      <section id="formal" class="container mt-5">
         <h1 class="shoe-header">FORMAL SHOES</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
@@ -335,7 +335,67 @@
         </div>
       </section>
       <!-- Formal Shoe Section End -->
+
+      <!-- Contact Section Start -->
+      <section class="container my-5">
+        <div class="row row-cols-2 g-5">
+          <div class="col">
+            <div
+              class="d-flex justify-content-evenly align-items-center shadow rounded-4 my-3 py-3"
+            >
+              <img class="img" src="./icons/image 12.png" alt="" srcset="" />
+              <div>
+                <h3>Find the Perfect Fit</h3>
+                <p>
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+            <div
+              class="d-flex justify-content-evenly align-items-center shadow rounded-4 my-3 py-3"
+            >
+              <img class="img" src="./icons/image 13.png" alt="" srcset="" />
+              <div>
+                <h3>Find the Perfect Fit</h3>
+                <p>
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+            <div
+              class="d-flex justify-content-evenly align-items-center shadow rounded-4 my-3 py-3"
+            >
+              <img class="img" src="./icons/image 14.png" alt="" srcset="" />
+              <div>
+                <h3>Find the Perfect Fit</h3>
+                <p>
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid my-5"
+              src="./icons/XMLID 1.png"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section End -->
     </main>
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <p style="margin: 0; padding: 30px">
+        ©2023. AUNGSTROME. All rights reserved. NIKE REACT.
+      </p>
+    </footer>
     <!-- Bootstrap Script -->
     <script src="./js/bootstrap.min.js"></script>
   </body>
