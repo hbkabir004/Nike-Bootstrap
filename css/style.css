@@ -2,7 +2,6 @@ body {
   font-family: "Bebas Neue", cursive;
 }
 header,
-nav,
 footer {
   background-color: #fff9f4;
 }
@@ -18,7 +17,16 @@ footer {
 .top-banner h1 {
   font-size: 80px;
 }
-
+@media screen and (max-width: 576px) {
+  .top-banner h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .top-banner h1 {
+    font-size: 60px;
+  }
+}
 .shoe-header {
   color: #363958;
   font-size: 50px;
